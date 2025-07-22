@@ -263,3 +263,27 @@ span{
         margin-top: 4rem;
     }
 }
+
+#alert {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffdd57;
+  color: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  z-index: 9999;
+}
+
+#alert button {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
