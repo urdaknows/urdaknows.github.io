@@ -8,7 +8,5 @@ function close() {
 }
 
 if (isMobile()) {
-  window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('alert').style.display = 'block';
-  });
+  alert('This site is not optimized for mobile devices. Please use a desktop browser for the best experience.');
 }
