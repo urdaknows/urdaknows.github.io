@@ -575,6 +575,12 @@ div {
   box-shadow: 0 0 var(--dark-gray);
 }
 
+.contact_message,
+.contact_email,
+.contact_name {
+  text-align: start;
+}
+
 .footer {
   text-align: center;
   font-size: var(--size-extra-small);
@@ -666,11 +672,6 @@ div {
   #skills {
     margin: 5rem auto;
   }
-  .blob {
-    width: 90%;
-    bottom: -30%;
-  }
-  
   .work_description {
     height: 170px;
   }
