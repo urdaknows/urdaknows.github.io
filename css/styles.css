@@ -473,8 +473,9 @@ div {
 }
 
 .work_title {
+  font-family: var(--pixel-font);
   margin: 2rem auto 1rem;
-  font-size: 25px;
+  font-size: 16px;
   border-radius: 5px;
   font-weight: var(--weight-bold);
   text-align: center;
