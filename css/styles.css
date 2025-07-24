@@ -347,33 +347,6 @@ div {
   text-align: justify;
 }
 
-.resume-link {
-  font-family: var(--pixel-font);
-  background-color: var(--purple);
-  color: var(--white);
-  font-size: 1rem;
-  padding: 0.7rem 1.5rem;
-  display: flex;
-  align-items: center;
-  border: 3px solid var(--white);
-  border-radius: 5px;
-  -webkit-box-shadow: inset -4px -6px 0px 4px var(--dark-purple);
-  -moz-box-shadow: inset -4px -6px 0px 4px var(--dark-purple);
-  box-shadow: inset -4px -6px 0px 4px var(--dark-purple);
-}
-
-.resume-link:active {
-  -webkit-box-shadow: inset -3px -4px 0px 3px var(--dark-purple);
-  -moz-box-shadow: inset -3px -4px 0px 3px var(--dark-purple);
-  box-shadow: inset -3px -4px 0px 3px var(--dark-purple);
-}
-
-.resume-link i {
-  position: relative;
-  bottom: 3px;
-  right: 5px;
-}
-
 .shrey-gif-col {
   text-align: center;
   width: 100%;
