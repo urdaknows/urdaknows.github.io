@@ -582,6 +582,7 @@ div {
 }
 
 .footer {
+  font-family: var(--pixel-font);
   text-align: center;
   font-size: var(--size-extra-small);
   padding-bottom: 10px;
